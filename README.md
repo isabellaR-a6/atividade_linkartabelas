@@ -1,114 +1,126 @@
-Atividade – Integração de PHP com MySQL (CRUD DE LIVROS)
------------
- Descrição da Atividade
+## Atividade – Integração de PHP com MySQL (CRUD de Livros)
 ---
-Este projeto tem como objetivo praticar o uso do PHP com MySQL Workbench, realizando operações de criação, inserção, leitura, atualização e exclusão de dados em tabelas de um banco de dados.
 
-A atividade consiste em criar uma aplicação simples de cadastro e listagem de livros, onde os dados são salvos e exibidos dinamicamente a partir do banco de dados MySQL. Além disso, o projeto prepara o ambiente para realizar junções (JOINs) entre tabelas no futuro — por exemplo, relacionar livros com autores ou editoras.
+##  Descrição da Atividade
 
-Imagem do projeto 
--
-<img width="1898" height="862" alt="image" src="https://github.com/user-attachments/assets/5e1a48c9-db4c-48d1-b40f-a556727efc81" />
+Este projeto tem como objetivo **praticar PHP com MySQL**, criando uma aplicação simples para cadastro, listagem, edição e exclusão de livros.  
+Os dados são salvos e exibidos dinamicamente do banco MySQL, e o projeto prepara o ambiente para futuras **junções entre tabelas** (ex: livros ↔ autores ou editoras).
 
-
-Tecnologias Utilizadas
 ---
-<p align="center"> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Apache-FC6A0B?style=for-the-badge&logo=apache&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/FontAwesome-528DD2?style=for-the-badge&logo=font-awesome&logoColor=white" /> </p>
 
- Funcionalidades
--
-Funcionalidade	Descrição
-🖇️ Conexão BD	Conecta ao MySQL via mysqli
-📝 Criar Livro	Formulário para adicionar título e autor
-📄 Listar Livros	Exibe livros em tabela Bootstrap responsiva
-✏️ Editar Livro	Altera título e autor de um livro existente
-🗑️ Excluir Livro	Remove livro do banco de dados
-🔢 Contagem	Mostra total de registros cadastrad
-Exibe o total de registros inseridos na tabela.
+ 💻 Tecnologias Utilizadas
 
- Operações CRUD
--
-O sistema implementa todas as operações CRUD:
+| Tecnologia | Badge |
+|------------|-------|
+| PHP        | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) |
+| MySQL      | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
+| Apache     | ![Apache](https://img.shields.io/badge/Apache-FC6A0B?style=for-the-badge&logo=apache&logoColor=white) |
+| Bootstrap  | ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) |
+| FontAwesome| ![FontAwesome](https://img.shields.io/badge/FontAwesome-528DD2?style=for-the-badge&logo=font-awesome&logoColor=white) |
 
-Operação	Significado	Exemplo no Projeto
-C	Create (Criar)	Cadastro de livros via formulário
-R	Read (Ler)	Lista de livros na tabela
-U	Update (Atualizar)	Botão Editar e formulário
-D	Delete (Excluir)	Botão Excluir
-✏️ Editar um Livro
+---
+## imagem do projeto
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/6c11ab35-f059-4c62-a215-ecb505bb6f88" />
 
-Botão no sistema:
+---
 
-<a href='update.php?id=1' class='btn btn-sm btn-primary'>
-    <i class='fa-solid fa-pencil'></i> Editar
-</a>
+##  Funcionalidades do Sistema
+
+| Funcionalidade | Descrição |
+|----------------|-----------|
+|  Conexão BD  | Conecta ao MySQL via **mysqli** |
+|  Criar Livro | Formulário para adicionar título e autor |
+|  Listar Livros | Exibe livros em tabela Bootstrap responsiva |
+|  Editar Livro | Altera título e autor de um livro existente |
+|  Excluir Livro | Remove livro do banco de dados |
+|  Contagem | Mostra total de registros cadastrados |
+
+---
+
+##  Operações CRUD
+
+| Operação | Significado | Exemplo no Sistema |
+|----------|------------|-----------------|
+| **C** | Create (Criar) | Cadastro de livros |
+| **R** | Read (Ler)   | Listagem de livros |
+| **U** | Update (Atualizar) | Botão ✏️ Editar |
+| **D** | Delete (Excluir) | Botão 🗑️ Excluir |
+
+---
+
+## ✏️ Editar Livro
+
+**Botão no sistema:**
+✏️ Editar (btn-primary)
 
 
-Fluxo visual:
--
-Clique em Editar → formulário pré-preenchido abre.
+**Como funciona:**  
+1️⃣ Clique em **Editar** → formulário pré-preenchido abre  
+2️⃣ Altere Título e Autor  
+3️⃣ Clique em **Atualizar** → tabela atualiza automaticamente
 
-Altere Título e Autor.
+---
+## Imagem de exemplo
+<img width="1919" height="859" alt="image" src="https://github.com/user-attachments/assets/4a1c6034-1438-4b38-9910-60c605302843" />
 
-Clique em Atualizar → tabela é atualizada automaticamente.
 
-imagem Exemplo
+
 --
-<img width="1919" height="786" alt="image" src="https://github.com/user-attachments/assets/59f70d61-c24f-4040-884e-137376c52214" />
+## 🗑️ Excluir Livro
+
+**Botão no sistema:**
+
+🗑️ Excluir (btn-danger)
 
 
+**Como funciona:**  
+1️⃣ Clique em **Excluir** → livro é removido  
+2️⃣ Tabela atualiza automaticamente  
 
- Excluir um Livro
--
-Botão no sistema:
+> ⚠️ Dica: adicionar confirmação antes de excluir registros importantes.
 
-<a href='delete.php?id=1' class='btn btn-sm btn-danger'>
-    <i class='fa-solid fa-trash'></i> Excluir
-</a>
+---
 
+## 🎨 Botões e Ícones
 
-Fluxo visual:
--
-Clique em Excluir → livro é removido.
+| Ação    | Botão | Ícone |
+|---------|-------|-------|
+| ✏️ Editar | Azul (`btn-primary`) | ✏️ |
+| 🗑️ Excluir | Vermelho (`btn-danger`) | 🗑️ |
 
-A tabela é atualizada automaticamente.
+---
 
- Dica: Adicione confirmação antes de excluir registros importantes.
+##  Exemplo de Lista de Livros
 
- Botões e Ícones
--
-Ação	Botão Bootstrap	Ícone Font Awesome
-Editar	Azul (btn-primary)	✏️ (fa-pencil)
-Excluir	Vermelho (btn-danger)	🗑️ (fa-trash)
+| # | Título                | Autor                     | Ações                  |
+|---|----------------------|--------------------------|-----------------------|
+| 1 | O Pequeno Príncipe    | Antoine de Saint-Exupéry | ✏️ Editar 🗑️ Excluir |
+| 2 | Dom Casmurro          | Machado de Assis         | ✏️ Editar 🗑️ Excluir |
+| 3 | Harry Potter          | J.K. Rowling             | ✏️ Editar 🗑️ Excluir |
 
- Exemplo de Lista de Livros
--
-#	Título	Autor	Ações
-1	O Pequeno Príncipe	Antoine de Saint-Exupéry	✏️ Editar
-2	Dom Casmurro	Machado de Assis	✏️ Editar
-3	Harry Potter	J.K. Rowling	✏️ Editar
+---
 
-No projeto real, os botões possuem cores Bootstrap e ícones Font Awesome.
+##  Guia de Interação
 
- Guia de Interação
--
-Acesse a página principal (atividade.php) para visualizar todos os livros.
+1. Acesse `atividade.php` para ver todos os livros  
+2. Para **cadastrar**, use o formulário Create  
+3. Para **editar**, clique no botão azul ✏️  
+4. Para **excluir**, clique no botão vermelho 🗑️  
+5. Todas as alterações refletem automaticamente na tabela
 
-Para cadastrar, use o formulário de Create.
+---
 
-Para editar, clique no botão azul ✏️.
+##  Estilização
 
-Para excluir, clique no botão vermelho 🗑️.
+- Layout responsivo com **Bootstrap 5**  
+- Bordas e cores automáticas  
+- Tabela compacta `.table-sm`  
 
-Todas as alterações são refletidas automaticamente na tabela.
+---
 
- Estilização
--
+##  Agradecimentos e Créditos
 
-A tabela usa o framework Bootstrap 5, garantindo:
+Este projeto foi totalmente desenvolvido individualmente. 
+Foi uma ótima oportunidade de colocar em prática PHP e MySQL, criar funcionalidades CRUD e experimentar o design de interfaces responsivas. Cada linha de código representa aprendizado e dedicação!
 
-Layout responsivo
-
-Cores e bordas automáticas
-
-Versão compacta (.table-sm) para melhor visualização
+Obrigada por acessar meu git❤️ 
