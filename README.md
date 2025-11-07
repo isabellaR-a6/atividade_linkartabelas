@@ -17,28 +17,13 @@ Tecnologias Utilizadas
 
  Funcionalidades
 -
-✅ Conexão com o banco de dados
-
-O PHP conecta-se ao servidor MySQL usando mysqli.
-
-✅ Criação automática da tabela
-
-Caso a tabela livros não exista, o PHP cria automaticamente com os campos id, titulo e autor.
-
-✅ Formulário de inserção
-
-O usuário insere o título e o autor de um livro por meio de um formulário HTML.
-
-✅ Inserção de dados
-
-Os dados são enviados via método POST e armazenados no banco.
-
-✅ Listagem dinâmica
-
-Os livros cadastrados são listados em uma tabela estilizada com Bootstrap, puxando os dados diretamente do banco MySQL.
-
-✅ Contagem total de livros
-
+Funcionalidade	Descrição
+🖇️ Conexão BD	Conecta ao MySQL via mysqli
+📝 Criar Livro	Formulário para adicionar título e autor
+📄 Listar Livros	Exibe livros em tabela Bootstrap responsiva
+✏️ Editar Livro	Altera título e autor de um livro existente
+🗑️ Excluir Livro	Remove livro do banco de dados
+🔢 Contagem	Mostra total de registros cadastrad
 Exibe o total de registros inseridos na tabela.
 
  Operações CRUD
