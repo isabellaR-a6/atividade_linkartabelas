@@ -8,15 +8,15 @@ Os dados são salvos e exibidos dinamicamente do banco MySQL, e o projeto prepar
 
 ---
 
- 💻 Tecnologias Utilizadas
+ Tecnologias Utilizadas
+--
 
-| Tecnologia | Badge |
-|------------|-------|
-| PHP        | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) |
-| MySQL      | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
-| Apache     | ![Apache](https://img.shields.io/badge/Apache-FC6A0B?style=for-the-badge&logo=apache&logoColor=white) |
-| Bootstrap  | ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) |
-| FontAwesome| ![FontAwesome](https://img.shields.io/badge/FontAwesome-528DD2?style=for-the-badge&logo=font-awesome&logoColor=white) |
+
+ ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) |
+ ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
+ ![Apache](https://img.shields.io/badge/Apache-FC6A0B?style=for-the-badge&logo=apache&logoColor=white) |
+ ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) |
+ ![FontAwesome](https://img.shields.io/badge/FontAwesome-528DD2?style=for-the-badge&logo=font-awesome&logoColor=white) |
 
 ---
 ## imagem do projeto
