@@ -64,8 +64,6 @@ Os dados são salvos e exibidos dinamicamente do banco MySQL, e o projeto prepar
 <img width="1919" height="859" alt="image" src="https://github.com/user-attachments/assets/4a1c6034-1438-4b38-9910-60c605302843" />
 
 
-
---
 ## 🗑️ Excluir Livro
 
 **Botão no sistema:**
